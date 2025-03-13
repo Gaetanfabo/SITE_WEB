@@ -1,0 +1,89 @@
+.aide-contacts {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aide-contacts h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aide-contacts h2 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.aide-contacts .faq ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.aide-contacts .faq li {
+    margin-bottom: 15px;
+}
+
+.aide-contacts .faq h3 {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.aide-contacts .faq p {
+    color: #777;
+    margin-left: 20px;
+}
+
+.aide-contacts .contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.aide-contacts .contact-form div {
+    margin-bottom: 10px;
+}
+
+.aide-contacts .contact-form label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.aide-contacts .contact-form input,
+.aide-contacts .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.aide-contacts .contact-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.aide-contacts .contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.aide-contacts .contact-info p {
+    color: #555;
+    margin: 5px 0;
+}
+
+footer {
+    margin-top: auto;
+    background: linear-gradient(to left, #0a61ad, #f7f2f2);
+    color: #0e0a0a;
+    text-align: center;
+    padding: 0.1rem 0;
+}

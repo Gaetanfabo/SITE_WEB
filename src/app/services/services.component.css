@@ -1,0 +1,50 @@
+.services {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%; /* Ensure all service blocks have the same width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+    text-align: left;
+}
+
+.service p {
+    font-size: 1em;
+    color: #0c0c0c;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: auto;
+    background: linear-gradient(to left, #0a61ad, #f7f2f2);
+    color: #0e0a0a;
+    text-align: center;
+    padding: 0.1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
