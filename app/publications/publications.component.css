@@ -1,0 +1,80 @@
+.publications {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: fadeIn 1s ease-in-out;
+    align-items: center;
+}
+
+.publication {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 100%; /* Ensure all service blocks have the same width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.publication:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.publication h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+    text-align: left;
+}
+
+.publication p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    margin-top: auto;
+    background: linear-gradient(to left, #0a61ad, #f7f2f2);
+    color: #0e0a0a;
+    text-align: center;
+    padding: 0.1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+.secteurs {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.secteurs h1 {
+    text-align: center;
+    color: #0d0d0e;
+    margin-bottom: 20px;
+}
+
+.secteurs p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.secteur {
+    margin-bottom: 80px; /* Augmenter la marge inférieure */
+}
+
+.secteur h2 {
+    color: #050607;
+    margin-bottom: 10px;
+}
+
+.secteur ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.secteur ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: auto;
+    background: linear-gradient(to left, #0a61ad, #f7f2f2);
+    color: #0e0a0a;
+    text-align: center;
+    padding: 0.1rem 0;
+}
